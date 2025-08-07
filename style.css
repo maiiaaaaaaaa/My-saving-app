@@ -1,0 +1,74 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --accent-color: #ff8fa3;
+}
+
+body.light {
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --accent-color: #ff8fa3;
+}
+
+body.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --accent-color: #bb86fc;
+}
+
+body.pastel {
+  --bg-color: #fffaf0;
+  --text-color: #333;
+  --accent-color: #f6b5c0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+
+#language-theme-settings {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin: 10px 0;
+}
+
+button, select, input {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
